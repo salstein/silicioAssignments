@@ -37,7 +37,7 @@ class _SilicioCardState extends State<SilicioCard> {
             children: <Widget>[
               Center(
                 child: CircleAvatar(
-                  backgroundImage: AssetImage('assets/amigo.jpg'),
+                  backgroundImage: Image(image: AssetImage('assets/amigo.jpg')),
                   radius: 70.0,
                 ),
               ),
